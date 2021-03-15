@@ -5,6 +5,7 @@ import styled from "styled-components";
 export const Card = styled(MUICard)`
   padding: 20px;
   max-width: 300px;
+  min-width: 250px;
   min-height: 200px;
   margin: 10px;
   display: flex;

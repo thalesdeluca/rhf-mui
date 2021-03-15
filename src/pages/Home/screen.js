@@ -76,7 +76,7 @@ const HomeScreen = () => {
 
   return (
     <Content>
-      <Card elevation={6}>
+      <Card elevation={6} style={{ overflow: "inherit" }}>
         <CandidatesForm
           {...{
             form: {
