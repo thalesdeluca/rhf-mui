@@ -40,6 +40,7 @@ export const RangeContainer = styled.div`
 `;
 
 export const Card = styled(MUICard) `
+  overflow: inherit;
   padding: 10px;
 `;
 
